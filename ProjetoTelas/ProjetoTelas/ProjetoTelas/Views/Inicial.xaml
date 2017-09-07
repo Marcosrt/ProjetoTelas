@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoTelas.Views.Inicial"
+             Title="Projeto Telas">
+   
+        <StackLayout Padding="25">
+        <Button x:Name="botaoConsulta" Text="Agendar Consulta" Clicked="botaoConsulta_Clicked"></Button>
+        <Button x:Name="botaoLivro" Text="Cadastrar Livro" Clicked="botaoLivro_Clicked"></Button>
+        <Button x:Name="botaoTime" Text="Adicionar Time" Clicked="botaoTime_Clicked"></Button>
+        <Button x:Name="botaoInteresse" Text="Registrar Interesse" Clicked="botaoInteresse_Clicked"></Button>
+
+    </StackLayout>
+    
+</ContentPage>
